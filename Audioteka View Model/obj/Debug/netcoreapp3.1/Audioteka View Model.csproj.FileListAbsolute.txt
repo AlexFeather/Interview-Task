@@ -1,0 +1,4 @@
+A:\projects\Audioteka View Model\bin\Debug\netcoreapp3.1\Audioteka View Model.exe
+A:\projects\Audioteka View Model\obj\Debug\netcoreapp3.1\Audioteka View Model.csprojAssemblyReference.cache
+A:\projects\Audioteka View Model\obj\Debug\netcoreapp3.1\Audioteka View Model.AssemblyInfoInputs.cache
+A:\projects\Audioteka View Model\obj\Debug\netcoreapp3.1\Audioteka View Model.AssemblyInfo.cs

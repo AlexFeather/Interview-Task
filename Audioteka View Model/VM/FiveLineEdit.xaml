@@ -1,0 +1,22 @@
+﻿<Window x:Class="VM.FiveLineEdit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VM"
+        mc:Ignorable="d"
+        Title="Edit" Height="280" Width="400">
+    <Grid Margin="5,5,5,5">
+        <TextBox x:Name="Name" HorizontalAlignment="Right" Margin="0,30,20,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+        <TextBox x:Name="ReleaseYear" HorizontalAlignment="Right" Margin="0,55,20,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"/>
+        <ComboBox x:Name="AuthorComboBox" HorizontalAlignment="Right" Margin="0,80,20,0" VerticalAlignment="Top" Width="180" SelectionChanged="AuthorComboBox_Select"/>
+        <ComboBox x:Name="AlbumComboBox" HorizontalAlignment="Right" Margin="0,110,20,0" VerticalAlignment="Top" Width="180" SelectionChanged="AlbumComboBox_Select"/>
+        <ComboBox x:Name="GenreComboBox" HorizontalAlignment="Right" Margin="0,140,20,0" VerticalAlignment="Top" Width="180" SelectionChanged="GenreComboBox_Select"/>
+        <Button Content="Ok" HorizontalAlignment="Center" Margin="0,0,0,20" VerticalAlignment="Bottom" Height="20" Width="40" Click="Ok_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,30,0,0" Text="Name:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,55,0,0" Text="Release year:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,80,0,0" Text="Author:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,110,0,0" Text="Album:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,140,0,0" Text="Genre:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
